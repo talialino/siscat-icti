@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+.panel-primary {
+  border-color: #546e7a;
+}
+.panel-primary > .panel-heading {
+  background-color: #546e7a;
+  border-color: #546e7a;
+}
+.panel-title {
+  font-size: 18px !important;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.cabecalho {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 26px;
+  position: relative;
+  margin-bottom: 15px;
+  font-weight: 600;
+  padding: 20px 0px;
+  border-top: 1px solid #9a9797;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+details {
+  background: #ffffff;
+  border-radius: 2px;
+  position: relative;
+  padding: 7px;
+  border: 1px solid #ddd;
+}
+details:hover {
+  cursor: pointer;
+}
+details a {
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 2px;
+}
+details .detailsConteudo {
+  border-top: 1px solid #ccc;
+  padding: 5px;
+  margin-top: 5px;
+}
+summary:focus {
+  outline: none;
+}
+.tab-content {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-top: 0;
+}
+.fa-file-pdf-o {
+  color: red;
+  font-size: 18px !important;
+}
+.sisape-projeto-search,
+.sisape-relatorio-form {
+  padding: 10px 20px;
+  background: #fff;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+/******* BEGIN MODAL *******/
+.modal-header {
+  background: #546e7a;
+  color: white;
+}
+.modal-header h3 {
+  font-family: "Montserrat", sans-serif;
+}
+button.close {
+  border: 1px solid #fff;
+  padding: 5px 8px;
+  border-radius: 50%;
+}
+.close {
+  opacity: 0.8;
+  color: #fff;
+}
+.editModalButton {
+  background: transparent;
+  border: 0;
+  color: #3c8dbc;
+  padding: 1px 4px;
+}
+/******* END MODAL *******/
+.sisape-relatorio-form {
+  background: white;
+  padding: 20px 10px;
+}
+
+@media only screen and (min-width : 481px) {
+  .flex-row.row {
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .flex-row.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+  }
+ .flex-row.row:after, 
+ .flex-row.row:before {
+  display: flex;
+ }
+}

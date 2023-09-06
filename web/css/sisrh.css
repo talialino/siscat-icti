@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+.panel-primary {
+  border-color: #546e7a;
+}
+.panel-primary > .panel-heading {
+  background-color: #546e7a;
+  border-color: #546e7a;
+}
+.panel-title {
+  font-size: 18px !important;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cabecalho {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 26px;
+  position: relative;
+  margin-bottom: 15px;
+  font-weight: 600;
+  padding: 20px 0px;
+  border-top: 1px solid #9a9797;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.sisrh-pessoa-search {
+  padding: 10px 20px;
+  background: #fff;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+.sisrh-pessoa-search fieldset{
+  margin-bottom: 0;
+}
+
+.sisrh-comissao-view, .sisrh-setor-view {
+  margin: 20px 10px 0px 10px;
+}
+
+.sisrh-comissao-view .panel-default > .panel-heading, .sisrh-setor-view .panel-default > .panel-heading {
+  color: #333333;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.sisrh-comissao-view .kv-panel-before, .sisrh-setor-view .kv-panel-before {
+  display: none;
+}
+
+.tab-content > .active {
+  background: white;
+}
+
+.tabs-conteudo {
+  background: white;
+  padding-top: 15px;
+  border-left: 1px solid #e2e2e2;
+  border-right: 1px solid #e2e2e2;
+}
+
+/******* BEGIN MODAL *******/
+.modal-header {
+  background: #546e7a;
+  color: white;
+}
+.modal-header h3 {
+  font-family: "Montserrat", sans-serif;
+}
+button.close {
+  border: 1px solid #fff;
+  padding: 5px 8px;
+  border-radius: 50%;
+}
+.close {
+  opacity: 0.8;
+  color: #fff;
+}
+.editModalButton {
+  background: transparent;
+  border: 0;
+  color: #3c8dbc;
+}
+/******* END MODAL *******/
+.ocorrenciaVigente {
+  color:red;
+}

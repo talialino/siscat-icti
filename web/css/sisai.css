@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+.panel-primary {
+  border-color: #546e7a;
+}
+.panel-primary > .panel-heading {
+  background-color: #546e7a;
+  border-color: #546e7a;
+}
+.panel-title {
+  font-size: 18px !important;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.cabecalho {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 26px;
+  position: relative;
+  margin-bottom: 15px;
+  font-weight: 600;
+  padding: 20px 0px;
+  border-top: 1px solid #9a9797;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+details {
+  background: #ffffff;
+  border-radius: 2px;
+  position: relative;
+  padding: 7px;
+  border: 1px solid #ddd;
+}
+details:hover {
+  cursor: pointer;
+}
+details a {
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 2px;
+}
+details .detailsConteudo {
+  border-top: 1px solid #ccc;
+  padding: 5px;
+  margin-top: 5px;
+}
+summary:focus {
+  outline: none;
+}
+.tab-content {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-top: 0;
+}
+.fa-file-pdf-o {
+  color: red;
+  font-size: 18px !important;
+}
+
+/******* QUESTIONÁRIO *******/
+.box {
+  padding: 10px;
+}
+.mensagem-inicial {
+  padding: 10px;
+  border: 1px solid #ddd;
+  color: #111;
+  background-color: #f7f7f7;
+  margin: 10px 0;
+  font-size: 16px;
+}
+.mensagem-sucesso {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+.mensagem-info {
+  color: #024e60;
+  background-color: #b1efff;
+  border-color: #00c0ef;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+.questionario-pergunta {
+  font-weight:bold;
+  font-size: 16px;
+}
+.questionario-pergunta-resposta textarea {
+  width: 100%;
+}
+.questionario-titulo {
+  text-align: center;
+}
+.questionario-titulo.box-header {
+  padding: 0px; 
+}
+.questionario-titulo h3.box-title {
+  font-size: 22px;
+}
+.titulo-grupo {
+  margin-bottom: 0px;
+  font-size: 18px;
+  background: #eee;
+  padding: 10px;
+}
+.corpo-grupo {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+.questionario-pergunta-resposta label span {
+  padding-left: 5px;
+}
+.sisai-grupo-perguntas-form,
+.sisai-periodo-avaliacao-form,
+.sisai-avaliacao-search,
+.sisai-adicionar-componentes-form,
+.sisai-aluno-search {
+  background: white;
+  padding: 10px 20px;
+  border-top: 5px solid #ccc;
+}
+.sisai-periodo-avaliacao-view .btn {
+  margin:5px;
+}
+.btn-sisai {
+  background-color: #6d4c41;
+  color: #fff;
+  border-color: #4e342e;
+}
+.btn-sisai:hover {
+  background-color: #ccc;
+  color: #000;
+  border-color: #999;
+}
+.erro-questionario {
+  padding:10px;
+}
+.erro-questionario li {
+  list-style-type:none;
+}
+.erro-questionario li:before {
+  content: "\00BB";
+}
+.questionario-sub-titulo {
+  font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 15px;
+    padding: 0;
+    margin-top: 0;
+    font-style: italic;
+}
+.bodyRelatorio {
+  background: white;
+  margin: 0 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px 2px rgb(150 150 150 / 40%);
+  padding-bottom: 10px;
+}
+#containerGrafico,
+#tabelaAvaliacao,
+.sisai-aluno-search {
+  margin:20px
+}
+.tabelaAvaliacaoCabecalho {
+  background: #005170;
+  color: white;
+}
+#containerGrafico {
+  margin: 20px;
+  background: white;
+  border: 1px solid #ccc;
+  min-width: 1365px;
+}
+.graficoRelatorio {
+  width:auto;
+  overflow-x: scroll;
+}
+.tituloRelatorio {
+  margin:auto 20px;
+  text-align: center;
+  border-bottom:1px solid #ccc;
+  padding:10px;
+}
+
+/**************** ETAPAS ********************/
+.questionario-etapas {
+  padding: 2px;
+  color: #222;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.progress {
+  display: flex;
+  background-color: #ccc;
+  margin-bottom:0;
+  border-radius: 3px;
+}
+
+.progress-bar {
+  background-color: #025b70;
+  border-radius: 3px;
+}
+
+
+/******* BEGIN MODAL *******/
+.modal-header {
+  background: #546e7a;
+  color: white;
+}
+.modal-header h3 {
+  font-family: "Montserrat", sans-serif;
+}
+button.close {
+  border: 1px solid #fff;
+  padding: 5px 8px;
+  border-radius: 50%;
+}
+.close {
+  opacity: 0.8;
+  color: #fff;
+}
+.editModalButton {
+  background: transparent;
+  border: 0;
+  color: #3c8dbc;
+  padding: 1px 4px;
+}
+/******* END MODAL *******/
+
+@media only screen and (min-width : 481px) {
+  .flex-row.row {
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .flex-row.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+  }
+ .flex-row.row:after, 
+ .flex-row.row:before {
+  display: flex;
+ }
+}

@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+.panel-primary {
+  border-color: #546e7a;
+}
+.panel-primary > .panel-heading {
+  background-color: #546e7a;
+  border-color: #546e7a;
+}
+.panel-title {
+  font-size: 18px !important;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cabecalho {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 26px;
+  position: relative;
+  margin-bottom: 15px;
+  font-weight: 600;
+  padding: 20px 0px;
+  border-top: 1px solid #9a9797;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.modal-header {
+  background: #546e7a;
+  color: white;
+}
+.modal-header h3 {
+  font-family: "Montserrat", sans-serif;
+}
+.editModalButton {
+  background: transparent;
+  border: 0;
+  color: #3c8dbc;
+}
+button.close {
+  border: 1px solid #fff;
+  padding: 5px 8px;
+  border-radius: 50%;
+}
+.close {
+  opacity: 0.8;
+  color: #fff;
+}
+.sispit-atividade-complementar-form {
+  min-height: 150px;
+  padding: 20px 20px 10px;
+}
+.sispit-ano-index .item a {
+  font-size: 30px;
+  border: 1px solid #ccc;
+  padding: 20px 0;
+  display: block;
+  text-align: center;
+  background: #546e7a;
+  color: white;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+.sispit-ano-index .item a:hover {
+  background: #fff;
+  color: #546e7a;
+}
+.sispit-orientacao-academica-index .kv-panel-pager {
+  display: none;
+}
+.sispit-atividade-complementar-form button {
+  margin-top: 22px;
+}
+.kv-grid-group {
+  text-align: center;
+  vertical-align: middle !important;
+}
+.sispit-plano-relatorio-visualizar .kv-panel-before,
+.sispit-plano-relatorio-visualizar .kv-panel-after,
+.sispit-parecer-update .kv-panel-before,
+.sispit-parecer-update .kv-panel-after {
+  padding: 0;
+  border: 0;
+}
+.sispit-plano-relatorio-visualizar .panel, .sispit-parecer-update .panel {
+  margin-bottom: 40px;
+}
+.sispit-plano-relatorio-visualizar .kv-group-even,
+.sispit-plano-relatorio-visualizar .kv-group-odd,
+.sispit-parecer-update .kv-group-even,
+.sispit-parecer-update .kv-group-odd  {
+  background-color: #fff !important;
+}
+.sispit-plano-relatorio-visualizar .summary,
+.sispit-parecer-update .summary {
+  display: none;
+}
+.sispit-plano-relatorio-visualizar .kv-panel-pager,
+.sispit-parecer-update .kv-panel-pager {
+  min-height: 0 !important;
+}
+.sispit-parecer-form, .infoPit {
+  border-top: 10px solid #bbb;
+  padding: 20px;
+  background: #fff;
+  margin-bottom: 30px
+}
+.infoPit .panel-title {
+  font-size: 16px !important;
+}
+.infoPit h3.titulo {
+  text-align:center;
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+.sispit-parecer-form .kv-panel-pager{
+  display: none;
+}
+.cargaHorariaSemanal table tr:last-child {
+  background: #eee;
+  font-weight: bold;
+}
+.msgErrorSispit {
+  background-color: #f2dede;
+  padding: 12px;
+  margin: 15px;
+  color: #a94442;
+  border-left: solid 4px #d25547;
+}
+.msgInfoSispit, .sispit-mensagem-pessoal {
+  padding: 12px;
+  color: #000000;
+  text-align: right;
+  background-color: #e8f4fd;
+  border: solid 1px #a5bdce;
+  border-left: solid 4px #3498db;
+  float: right;
+}
+.sispit-mensagem-pessoal {
+  margin-bottom: 20px;
+}
+details {
+  margin: 0 auto ;
+  background: #fff;
+  padding: 3px;
+  border:1px solid #ddd;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+summary {
+  padding: 3px;
+  display: block;
+  background: #fff;
+  padding-left: 2.2rem;
+  position: relative;
+  cursor: pointer;
+}
+
+summary:before {
+  content: '';
+  border-width: .4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #000;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  transform: rotate(0);
+  transform-origin: .2rem 50%;
+  transition: .25s transform ease;
+}
+
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+details summary::-webkit-details-marker {
+  display:none;
+}
+.detailsConteudo {
+  padding-left: 5px;
+}
+.detailsConteudo i.fa {
+  color: red;
+}
+
+.tooltip > .tooltip-inner {padding: 5px 10px;font-size: 14px;}
+
+/**********PARECER***********/
+
+.sispit-parecer-comentario-docente h3 {
+  margin-bottom: 0;
+  margin-top:0;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.sispit-parecer-comentario-docente {
+  padding: 20px;
+  background: #fefefe;
+  color: #333;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 30px;
+}
+.sispit-parecer-comentario-docente .mensagem {
+  color: #856404;
+  background-color: #fff3cd;
+  border: 1px solid #ffe187;
+  position: relative;
+  padding: 15px;
+  margin-bottom: 1rem;
+  border-radius: .25rem;
+  margin-top: 20px;
+}
+
+
+.sispit-ultimo-parecer, .sispit-parecer-comentario {
+  padding: 20px;
+  background: #fefefe;
+  color: #333;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 20px;
+}
+h3.ultimo-parecer {
+  margin-top: 0;
+}
+
+.mensagem-alerta {
+  padding: 6px 6px 0 6px;
+  color: #000000;
+  background-color: #fde8ea;
+  border: solid 1px #ef5555;
+  margin-bottom: 20px;
+}
+.field-sispitparecer-comentario label {
+  font-size: 18px;
+}

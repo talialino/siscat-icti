@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+.panel-primary {
+  border-color: #546e7a;
+}
+.panel-primary > .panel-heading {
+  background-color: #546e7a;
+  border-color: #546e7a;
+}
+.panel-title {
+  font-size: 18px !important;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cabecalho {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 26px;
+  position: relative;
+  margin-bottom: 15px;
+  font-weight: 600;
+  padding: 20px 0px;
+  border-top: 1px solid #9a9797;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.tab-content {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-top: 0;
+}
+.sisliga-liga-search {
+    padding: 10px 20px;
+    background: #fff;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+.sisliga-relatorio-form {
+  padding: 20px 10px;
+}
+details {
+  margin: 0 auto ;
+  background: #fff;
+  padding: 3px;
+  border:1px solid #ddd;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+summary {
+  padding: 3px;
+  display: block;
+  background: #fff;
+  padding-left: 2.2rem;
+  position: relative;
+  cursor: pointer;
+}
+
+summary:before {
+  content: '';
+  border-width: .4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #000;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  transform: rotate(0);
+  transform-origin: .2rem 50%;
+  transition: .25s transform ease;
+}
+
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+details summary::-webkit-details-marker {
+  display:none;
+}
+.detailsConteudo {
+  padding-left: 5px;
+}
+.detailsConteudo i.fa {
+  color: red;
+}
+
+/*
+ * Skin: Blue
+ * ----------
+ */
+.skin-blue .main-header .navbar {
+  background-color: #00838f !important;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+  background-color: #006064 !important;
+}
+@media (max-width: 767px) {
+  .skin-blue .main-header .navbar .dropdown-menu li a:hover {
+    background: #006064 !important;
+  }
+}
+.skin-blue .main-header .logo {
+  background-color: #006064 !important;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-blue .main-header .logo:hover {
+  background-color: #00838f !important;
+}
+.skin-blue .main-header li.user-header {
+  background-color: #00838f !important;
+}
+.skin-blue .sidebar-menu > li.header {
+  color: #4b646f;
+  background: #1a2226;
+}
+.skin-blue .sidebar-menu > li.active > a {
+  border-left-color: #00838f !important;
+}
+.skin-blue.layout-top-nav .main-header > .logo {
+  background-color: #00838f !important;
+  color: #ffffff;
+  border-bottom: 0 solid transparent;
+}
+.skin-blue.layout-top-nav .main-header > .logo:hover {
+  background-color: #00838f !important;
+}
+/******* BEGIN MODAL *******/
+.modal-header {
+  background: #546e7a;
+  color: white;
+}
+.modal-header h3 {
+  font-family: "Montserrat", sans-serif;
+}
+button.close {
+  border: 1px solid #fff;
+  padding: 5px 8px;
+  border-radius: 50%;
+}
+.close {
+  opacity: 0.8;
+  color: #fff;
+}
+.editModalButton {
+  background: transparent;
+  border: 0;
+  color: #3c8dbc;
+  padding: 1px 4px;
+}
+/******* END MODAL *******/

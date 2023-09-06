@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+.main-header {
+  max-height: none;
+}
+.content-wrapper {
+  margin-left:0
+}
+.cabecalho1 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 24px;
+  position: relative;
+  border-top: none;
+  letter-spacing: 1px;
+  color:white;
+  text-transform: uppercase;
+}
+.cabecalho2 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.kv-panel-before{
+  display: none;
+}
+.skin-blue .wrapper {
+  background-color: #fff;
+}
+.content-wrapper, .main-footer {
+  margin-left: 0;
+}
+.siscatTopo{
+  background: #367fa9;
+  padding: 15px;
+}
+.subSistemas {
+  padding: 15px;
+}
+.sisape-projeto-search {
+  padding: 10px 20px;
+  background: #fff;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  display: none;
+}
+.pesquisa-avancada {
+  display: block;
+    width: 180px;
+    background: #367fa9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white !important;
+    font-size: 15px;
+}
+.pesquisa-avancada a {
+    color: white;
+}
+.content-header>.breadcrumb>li>a {
+  color: #444;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Open Sans", helvetica;
+  font-size: 14px;
+}
+.breadcrumb > .active {
+  color: #777777;
+  font-family: "Open Sans", helvetica;
+  font-size: 14px;
+}
+.content-header>.breadcrumb {
+  border-bottom: 1px dotted #ccc;
+}
+
+@media only screen and (min-width : 481px) {
+  .flex-row.row {
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .flex-row.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+  }
+ .flex-row.row:after, 
+ .flex-row.row:before {
+  display: flex;
+ }
+}

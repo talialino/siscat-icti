@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+.panel-primary {
+  border-color: #546e7a;
+}
+.panel-primary > .panel-heading {
+  background-color: #546e7a;
+  border-color: #546e7a;
+}
+.panel-title {
+  font-size: 18px !important;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cabecalho {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 26px;
+  position: relative;
+  margin-bottom: 15px;
+  font-weight: 600;
+  padding: 20px 0px;
+  border-top: 1px solid #9a9797;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+/******* BEGIN MODAL *******/
+.modal-header {
+  background: #546e7a;
+  color: white;
+}
+.modal-header h3 {
+  font-family: "Montserrat", sans-serif;
+}
+button.close {
+  border: 1px solid #fff;
+  padding: 5px 8px;
+  border-radius: 50%;
+}
+.close {
+  opacity: 0.8;
+  color: #fff;
+}
+.editModalButton {
+  background: transparent;
+  border: 0;
+  color: #3c8dbc;
+  padding: 1px 4px;
+}
+/******* END MODAL *******/
+
+/******* BEGIN PDF *******/
+
+.visualizarPdf table th, .visualizarPdf table td {
+  border:1px solid #555;
+  vertical-align:middle
+}
+
+/******* END PDF *******/
+
+.siscc-semestre-index .kv-grid-table td {
+  text-align: center;
+}
+.conteudoFormulario {
+  background:#fff;
+  border: 1px solid #e2e2e2;
+  padding-top: 20px;
+}
+.siscc-programa-componente-curricular-search, 
+.siscc-programa-componente-curricular-pessoa-search {
+  padding: 10px 20px;
+  background: #fff;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+.siscc-programa-componente-curricular-index .grid-view .grid-view .summary {
+  display: none;
+}
+details {
+  background: #ffffff;
+  border-radius: 2px;
+  position: relative;
+  padding: 7px;
+  border: 1px solid #ddd;
+}
+details:hover {
+  cursor: pointer;
+}
+details a {
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 2px;
+}
+details .detailsConteudo {
+  border-top: 1px solid #ccc;
+  padding: 5px;
+  margin-top: 5px;
+}
+summary:focus {
+  outline: none;
+}
+.viewComponenteCurricular {
+  border:1px solid #546e7a;
+  margin:6px;
+  border-radius: 2px;
+}
+
+.viewComponenteCurricular .col-sm-3,
+.viewComponenteCurricular .col-sm-12,
+.viewComponenteCurricular .col-sm-6,
+.viewComponenteCurricular .col-sm-9 {
+  border:1px solid #ddd;
+  padding-left: 8px;
+  padding-right: 8px;
+  min-height: 26x;
+}
+.siscc-programa-componente-curricular-form .tab-content {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-top: 0;
+}
+.siscc-parecer-form {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+ .siscc-parecer-index td,
+ .siscc-programa-componente-curricular-pessoa-index td,
+ .siscc-programa-componente-curricular-form td,
+ .wordBreak {
+  word-break: break-word;
+}
+.fa-file-pdf-o {
+  color:red;
+  font-size:18px !important;
+}
+.field-sisccimportarprogramaform-modificacoes {
+  margin-bottom: 0;
+}
+.field-sisccimportarprogramaform-modificacoes .help-block {
+  display: none;
+}
+.situacao0 {
+  background: #d32f2f;
+  color:white;
+}
+.situacao1 {
+  background: #e64a19;
+  color:white;
+}
+.situacao2 {
+  background: #f57c00;
+}
+.situacao3 {
+  background: #fdd835;
+}
+.situacao4 {
+  background: #ffc107;
+}
+.situacao5 {
+  background: #ffa000;
+}
+.situacao6 {
+  background: #81c784;
+}
+.situacao7 {
+  background: #4caf50;
+}
+.situacao8 {
+  background: #388e3c;
+  color:white;
+}
+.situacao9 {
+  background:#2e7d32;
+  color:white;
+}
+
+@media only screen and (min-width : 481px) {
+  .flex-row.row {
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .flex-row.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+  }
+ .flex-row.row:after, 
+ .flex-row.row:before {
+  display: flex;
+ }
+}
+
+/**********PARECER***********/
+
+.siscc-parecer-comentario-docente h3 {
+  margin-bottom: 0;
+  margin-top:0;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.siscc-parecer-comentario-docente {
+  padding: 20px;
+  background: #fefefe;
+  color: #333;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 30px;
+}
+.siscc-parecer-comentario-docente .mensagem {
+  color: #856404;
+  background-color: #fff3cd;
+  border: 1px solid #ffe187;
+  position: relative;
+  padding: 15px;
+  margin-bottom: 1rem;
+  border-radius: .25rem;
+  margin-top: 20px;
+}
+
+
+.siscc-ultimo-parecer, .siscc-parecer-comentario {
+  padding: 20px;
+  background: #fefefe;
+  color: #333;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 20px;
+}
+h3.ultimo-parecer {
+  margin-top: 0;
+}
+
+.mensagem-alerta {
+  padding: 6px 6px 0 6px;
+  color: #000000;
+  background-color: #fde8ea;
+  border: solid 1px #ef5555;
+  margin-bottom: 20px;
+}
+.field-sisccparecer-comentario label {
+  font-size: 18px;
+}
